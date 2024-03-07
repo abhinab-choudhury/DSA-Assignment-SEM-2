@@ -35,7 +35,7 @@ public class A1Q7 {
   public static void main(String[] args) {
     Scanner obj = new Scanner(System.in);
     
-    System.out.print("Enter number of elements of Array: ");
+    System.out.print("Enter number of elements of Array: "); 
     int n = obj.nextInt();
     int arr[] = new int[n];
     System.out.print("Enter elements of the array: ");
