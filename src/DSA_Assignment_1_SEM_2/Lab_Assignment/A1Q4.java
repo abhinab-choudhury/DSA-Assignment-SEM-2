@@ -1,4 +1,4 @@
-package DSA_Assignment_1_SEM_2.Lab_Assignment;
+ package DSA_Assignment_1_SEM_2.Lab_Assignment;
 
 import java.util.Scanner;
 
