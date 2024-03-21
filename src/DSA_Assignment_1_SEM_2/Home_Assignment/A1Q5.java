@@ -6,24 +6,20 @@ public class A1Q5 {
 
   public static int[] largestRowCol(int arr[][]) {
     int max_row = -1, max_col = -1, mrow_sum = -1, mcol_sum = -1;
-    
     for(int i = 0;i < 4;i++) {
       int sum_col = 0,sum_row = 0;
-      
       for(int j = 0;j < 4;j++) {
         sum_row += arr[i][j];
         sum_col += arr[j][i];
       }
-      
   	  if(sum_col > mcol_sum) {
         max_col = i;
         mcol_sum = sum_col;
-      } 
+      }
       if(sum_row > mrow_sum) {
         max_row = i;
         mrow_sum = sum_row;
       }
-      
     }
 
     int results[] = {max_row, max_col};

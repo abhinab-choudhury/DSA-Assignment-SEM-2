@@ -1,7 +1,5 @@
 package DSA_Assignment_1_SEM_2.Lab_Assignment;
 
-import java.util.Scanner;
-
 public class A1Q1 {
   
   public static int DivideBy2(double N) {
